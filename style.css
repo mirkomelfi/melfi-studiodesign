@@ -27,6 +27,7 @@ header {
 
 header h1 {
   font-weight: 600;
+  text-align: left;
 }
 
 nav ul {
@@ -79,6 +80,45 @@ section h2 {
 .targets li span {
   font-size: 1.5rem;
   display: block;
+}
+
+.servicios {
+  background-color: #E75234;
+}
+
+.elegirnos{
+  text-align: center;
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+.elegirnos h2 {
+  text-align: left;
+  padding-left: 8rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 0.5fr);
+  gap: 1rem;
+  justify-items: center;
+}
+
+.item {
+  background-color: #E5E1D9;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 300px;
+  height: 140px;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+
+.portfolio {
+  background-color: #96ADD6;
 }
 
 .quienes .row {
