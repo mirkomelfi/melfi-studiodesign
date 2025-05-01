@@ -19,33 +19,50 @@ body {
 
 header {
   background: #e7e1d8; /*#f2efea*/
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+header .container{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 header h1 {
   font-weight: 600;
-  text-align: left;
+  font-size: 2rem;
 }
 
 nav ul {
   list-style: none;
   display: flex;
   gap: 2rem;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
   text-decoration: none;
-  color: #111;
+  color: #000000;
   font-weight: 500;
+  font-size: 1rem;
 }
 
 nav .btn {
   border: 1px solid #111;
-  padding: 0.5rem 1rem;
-  border-radius: 10px;
+  padding: 0.3rem 1rem;
+  border-radius: 8px;
+  background: #e5e1d9;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+nav .btn:hover{
+  background-color: #000000;
+  color: #fffdfa;
 }
 
 section h2 {
@@ -86,7 +103,49 @@ section h2 {
   background-color: #E75234;
 }
 
+.card-title{
+  background-color: #f2efea;
+}
+
+.card-info {
+  padding: 1rem;
+}
+
+.servicios h2{
+  padding-top: 2rem;
+  text-align: left;
+  padding-left: 9rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.servicios p{
+  padding-top: 0rem;
+  font-size: small;
+}
+
+
+.item1{
+  background-color: #E5E1D9;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  width: 320px;
+  height: 200px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.cotizar{
+  padding: 8px 18px;
+  border-radius: 30px;
+  text-decoration: none;
+  background-color: #000000;
+  color: white;
+}
+
 .elegirnos{
+  background-color: #f2efea;
   text-align: center;
   font-family: sans-serif;
   padding: 2rem;
