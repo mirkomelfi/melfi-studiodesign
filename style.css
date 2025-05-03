@@ -18,9 +18,10 @@ body {
 }
 
 header {
-  background: #e7e1d8; /*#f2efea*/
+  background: #f2efea; /*#e7e1d8;*/ 
   padding: 1.5rem 2rem;
-  border-bottom: 1px solid #ddd;
+ /* border-bottom: 1px solid #ddd;*/
+ border-bottom: 1px solid #f2efea;
 }
 
 header .container{
