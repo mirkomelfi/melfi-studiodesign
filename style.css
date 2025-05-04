@@ -11,10 +11,32 @@ body {
   line-height: 1.6;
 }
 
+.fw-light{
+  font-weight: 300;
+}
+
+.fw-regular{
+  font-weight: 400;
+}
+
+.fw-semibold{
+  font-weight: 600;
+}
+
+h2{
+  font-weight: 600;
+}
+
 .container {
   max-width: 1100px;
   margin: auto;
   padding: 2rem;
+}
+
+.container h1{
+  flex: 1;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 header {
@@ -22,26 +44,27 @@ header {
   padding: 1.5rem 2rem;
  /* border-bottom: 1px solid #ddd;*/
  border-bottom: 1px solid #f2efea;
+ font-family:  "Inter", 'Segoe UI', sans-serif;
 }
 
-header .container{
+header .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
+  justify-content: space-between;
+  padding: 2rem;
+  position: relative;
 }
 
-header h1 {
-  font-weight: 600;
-  font-size: 2rem;
+nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 nav ul {
-  list-style: none;
   display: flex;
-  align-items: center;
   gap: 2rem;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -53,7 +76,7 @@ nav a {
   font-size: 1rem;
 }
 
-nav .btn {
+header .btn {
   border: 1px solid #111;
   padding: 0.3rem 1rem;
   border-radius: 8px;
@@ -62,7 +85,9 @@ nav .btn {
   transition: all 0.3s ease;
 }
 
-nav .btn:hover{
+
+
+header .btn:hover{
   background-color: #000000;
   color: #fffdfa;
 }
