@@ -292,7 +292,6 @@ section h2 {
 .portfolio-info1{
   width: 350px;
   padding-left: 2rem;
-  display: none;
 }
 
 footer {
@@ -388,6 +387,7 @@ footer h3 span {
   .portfolio-info {
     padding-left: 0;
   }
+    
 
   .quienes .row {
     flex-direction: column;
@@ -466,13 +466,6 @@ footer h3 span {
     font-size: 0.9rem;
   }
 
-  .portfolio-info1{
-    display: flex;
-  }
-
-  .portfolio-info{
-    display: none;
-  }
 }
 
 .flex-item img{
