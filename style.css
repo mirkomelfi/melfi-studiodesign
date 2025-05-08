@@ -474,3 +474,8 @@ footer h3 span {
     display: none;
   }
 }
+
+.flex-item img{
+  width: 300px;
+  height: auto;
+}
