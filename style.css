@@ -44,7 +44,6 @@ header {
   padding: 1.5rem 2rem;
  /* border-bottom: 1px solid #ddd;*/
  border-bottom: 1px solid #f2efea;
- font-family:  "Inter", 'Segoe UI', sans-serif;
 }
 
 header .container {
@@ -218,7 +217,6 @@ section h2 {
 .elegirnos{
   background-color: #f2efea;
   text-align: center;
-  font-family: sans-serif;
   padding: 2rem;
 }
 
