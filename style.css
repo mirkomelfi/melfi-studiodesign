@@ -525,10 +525,23 @@ footer h3 span {
     width: 100%;
     text-align: center;
   }
+
+    .portfolio h2{
+    text-align: center;
+  }
+
+    .card-portfolio{
+    margin:0rem;
+    margin-bottom: -2rem;
+  }
 }
 
 
 @media screen and (max-width: 480px) {
+  .portfolio h2{
+    text-align: center;
+  }
+
   .btn{
     margin-top: 4rem;
   }
@@ -565,6 +578,11 @@ footer h3 span {
 
   footer {
     font-size: 0.9rem;
+  }
+
+  .card-portfolio{
+    margin:0rem;
+    margin-bottom: -2rem;
   }
 
 }
