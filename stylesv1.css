@@ -155,18 +155,30 @@ section h2 {
   text-align: start;
 }
 
+/*
 .card-info i {
+  width: 40px;
+  height: 40px;
+  background-color: white; 
+  line-height: 40px;
+  border-radius: 8px; 
+  margin-right: 10px; 
+}
+*/
+
+.icono {
   width: 40px;
   height: 40px;
   background-color: white; /* Fondo blanco */
   line-height: 40px;
   border-radius: 8px; 
   margin-right: 10px; 
+  margin-bottom: 0.4rem;
 }
 
-.icono {
-  display: flex;
-  padding-bottom: 12px;
+.icono img{
+  width: 75%;
+  height: 75%;
 }
 
 
@@ -254,6 +266,10 @@ section h2 {
   
   font-size:20px;
   font-weight: bold;
+}
+
+i{
+  padding-right: 0.4rem;
 }
 
 .item .info{
@@ -488,6 +504,23 @@ footer h3 span {
   height: 40px;
 }
 
+
+
+
+.contacto .info{
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+
+.contacto .title {
+  font-size: 1.4rem;
+  margin-bottom: 0.2rem;
+}
+
+.contacto .copy {
+  font-size: 0.9rem;
+}
+
 @media screen and (max-width: 768px) {
   header .container {
     flex-direction: column;
@@ -699,6 +732,15 @@ section h2 {
   
   #contacto .container {
     text-align: left;
+  }
+
+  .contacto .info{
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .contacto .title {
+    font-size: 1rem;
   }
 
   .quienes .container {
