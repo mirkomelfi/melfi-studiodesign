@@ -271,6 +271,9 @@ section h2 {
   gap: 2rem;
 }
 
+.br-oculto{
+  display: none;
+}
 .quienes .col {
   flex: 1;
 }
@@ -561,8 +564,10 @@ footer h3 span {
 
   .card-portfolio {
     width: 90%;
+    height: auto;
     margin: 1rem auto;
     text-align: center;
+    margin-top: 0px;
   }
 
   .flex-item,
@@ -616,13 +621,25 @@ footer h3 span {
     width: 100%;
     text-align: center;
   }
+
+  .flex-container{
+  gap: 0;
+}
 }
 
 @media screen and (max-width: 480px) {
 
+section h2 {
+    font-size: 1.7rem;
+}
+
+.flex-container{
+  gap: 0;
+}
   .card-portfolio {
-    width: 90%;
+    width: 100%;
     margin: 1rem auto;
+    margin-top: 0px;
     text-align: center;
   }
 
@@ -631,13 +648,19 @@ footer h3 span {
     width: 90%;
   }
 
+  .flex-item{
+    padding-right: 10px;
+  }
+
   .portfolio-info {
     padding-left: 0;
     width: 90%;
     margin: 0 auto;
     text-align: center;
   }
-
+.br-oculto{
+  display: block;
+}
   .btn {
     margin-top: 4rem;
   }
