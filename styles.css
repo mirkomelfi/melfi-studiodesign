@@ -619,6 +619,25 @@ footer h3 span {
 }
 
 @media screen and (max-width: 480px) {
+
+  .card-portfolio {
+    width: 90%;
+    margin: 1rem auto;
+    text-align: center;
+  }
+
+  .flex-item,
+  .portfolio-info {
+    width: 90%;
+  }
+
+  .portfolio-info {
+    padding-left: 0;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
   .btn {
     margin-top: 4rem;
   }
@@ -642,6 +661,14 @@ footer h3 span {
   .container {
     text-align: center;
   }
+  
+  .contacto .container {
+    text-align: left;
+  }
+
+  .quienes .container {
+    text-align: left;
+  }
 
   .portfolio .card-portfolio {
     margin: 1rem;
@@ -651,6 +678,13 @@ footer h3 span {
   .item {
     font-size: 1.2rem;
   }
+
+.team{
+  margin-top: 10px;
+}
+.team .personas{
+  padding-top: 15px;
+}
 
   .team .card {
     height: auto;
@@ -669,9 +703,12 @@ footer h3 span {
   footer {
     font-size: 0.9rem;
   }
+  
 }
 
 .flex-item img {
   width: 300px;
   height: auto;
 }
+
+
