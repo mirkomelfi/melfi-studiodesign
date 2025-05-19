@@ -625,6 +625,18 @@ footer h3 span {
   .flex-container{
   gap: 0;
 }
+
+  .container {
+    text-align: center;
+  }
+  
+  #contacto .container {
+    text-align: left;
+  }
+
+  .quienes .container {
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -685,7 +697,7 @@ section h2 {
     text-align: center;
   }
   
-  .contacto .container {
+  #contacto .container {
     text-align: left;
   }
 
