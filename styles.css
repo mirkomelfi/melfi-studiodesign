@@ -179,6 +179,7 @@ section h2 {
 .icono img{
   width: 75%;
   height: 75%;
+  padding-bottom: 0.25rem;
 }
 
 
@@ -728,6 +729,7 @@ section h2 {
 
   .container {
     text-align: center;
+    padding-right: 1.65rem;
   }
   
   #contacto .container {
