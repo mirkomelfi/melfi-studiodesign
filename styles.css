@@ -504,13 +504,31 @@ footer h3 span {
   width: 40px;
   height: 40px;
 }
+.link-ig {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px; /* espacio horizontal entre icono y texto */
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1;
+  text-decoration: none;
+  margin-bottom: 2rem;
+}
 
+.link-ig i {
+  display: inline-block;
+  font-size: 1.4rem;
+  vertical-align: middle;
+  text-decoration: none;
+}
 
 
 
 .contacto .info{
   font-size: 1.3rem;
   line-height: 1.4;
+  margin-bottom: 2px;
 }
 
 .contacto .title {
@@ -739,8 +757,14 @@ section h2 {
   .contacto .info{
     font-size: 0.9rem;
     line-height: 1.4;
+    margin-bottom: 0px;
   }
-
+  .link-ig i{
+     font-size: 0.9rem;
+  }
+  .link-ig{
+    font-size: 0.7rem;
+  }
   .contacto .title {
     font-size: 1rem;
   }
@@ -789,5 +813,7 @@ section h2 {
   width: 300px;
   height: auto;
 }
+
+
 
 
