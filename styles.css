@@ -763,7 +763,10 @@ section h2 {
      font-size: 0.9rem;
   }
   .link-ig{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+  }
+  .link-ig span{
+    padding-bottom: 2px;
   }
   .contacto .title {
     font-size: 1rem;
